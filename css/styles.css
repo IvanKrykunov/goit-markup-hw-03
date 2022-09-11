@@ -45,6 +45,10 @@ body {
   padding-right: 15px;
 }
 /* хедер */
+.header {
+  background-color: var(--background-main-color);
+  border-bottom: 1px solid#ECECEC;
+}
 
 .nav {
   align-items: center;
@@ -284,7 +288,17 @@ body {
 }
 /*--- портфоліо--- */
 /* секція кнопок */
+.container-portfolio {
+}
+.btn-portfolio {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
 .btn {
+  display: inline-block;
+  padding: 6px 22px 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -294,11 +308,35 @@ body {
   border-radius: 4px;
   border: 0;
 }
+.btn-portfolio .btns + .btns {
+  margin-left: 8px;
+}
 
 .btn:hover,
 .btn:focus {
   background: var(--accent-color);
   color: var(--background-secondary-color);
+}
+.section-main {
+  padding-top: 94px;
+}
+/* фото галерея */
+.portfolio-ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 66px;
+}
+.portfolio-li:nth-child(1n) {
+  margin-right: 30px;
+}
+.portfolio-li {
+  margin-bottom: 30px;
+}
+.content-photo {
+  padding: 20px 24px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 .title {
