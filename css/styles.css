@@ -26,7 +26,9 @@ h6 {
   margin: 0;
   padding: 0;
 }
-
+img {
+  display: block;
+}
 ul {
   margin: 0;
   padding: 0;
@@ -231,6 +233,10 @@ body {
   color: var(--secondary-text-color);
 }
 /* футер */
+.container-footer {
+  padding-top: 60px;
+  padding-left: 215px;
+}
 .footer {
   width: 1600px;
   height: 252px;
