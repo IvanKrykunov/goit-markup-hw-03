@@ -207,6 +207,9 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
+.section-practice {
+  padding-top: 0%;
+}
 .ul-practice {
   display: flex;
 }
