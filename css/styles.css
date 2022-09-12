@@ -278,7 +278,6 @@ body {
 /* футер */
 .container-footer {
   padding-top: 60px;
-  padding-left: 215px;
 }
 .footer {
   background: var(--hero-backgound);
