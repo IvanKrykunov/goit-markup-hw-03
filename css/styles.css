@@ -174,11 +174,13 @@ body {
 /* друга секція */
 .container-cection2 {
 }
+.ul-2 .item + .item {
+  margin-left: 30px;
+}
 
 .ul-2 {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
 }
 .ul-2 .item {
   width: 270px;
