@@ -228,7 +228,7 @@ body {
 .ul-team {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
+
   border-radius: 0px 0px 4px 4px;
 }
 .ul-team .li-team + .li-team {
@@ -247,7 +247,6 @@ body {
   background: var(--background-secondary-color);
 }
 .team-title {
-  padding-top: 94px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
