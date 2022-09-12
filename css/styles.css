@@ -38,6 +38,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   color: var(--primary-text-color);
+  background-color: var(--background-main-color);
 }
 .container {
   width: 1200px;
@@ -46,9 +47,13 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* хедер */
 .header {
-  background-color: var(--background-main-color);
   border-bottom: 1px solid#ECECEC;
 }
 
@@ -174,11 +179,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  padding-bottom: 94px;
 }
 .ul-2 .item {
   width: 270px;
-  margin-top: 94px;
 }
 .cection-2 {
   background: var(--background-main-color);
@@ -206,7 +209,6 @@ body {
 }
 .ul-practice {
   display: flex;
-  margin-bottom: 90px;
 }
 .ul-practice .pfoto-practice + .pfoto-practice {
   margin-left: 30px;
@@ -237,7 +239,6 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   overflow: hidden;
-  margin-bottom: 90px;
 }
 .team-div {
   background-color: var(--background-main-color);
