@@ -384,7 +384,6 @@ body {
 .portfolio-ul {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 66px;
 }
 .portfolio-li:nth-child(-n + 9) {
   margin-right: 30px;
