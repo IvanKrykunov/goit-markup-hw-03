@@ -354,7 +354,6 @@ body {
 }
 
 .btn {
-  box-shadow: inset;
   display: inline-block;
   padding: 6px 22px 6px 22px;
   font-weight: 500;
