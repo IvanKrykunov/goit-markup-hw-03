@@ -132,6 +132,11 @@ body {
 /* перша секція */
 .section-One {
   background-color: var(--hero-backgound);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/background/fon.jpg');
+
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .container-hero {
   padding-top: 200px;
@@ -174,6 +179,7 @@ body {
 /* друга секція */
 .container-cection2 {
 }
+
 .ul-2 .item + .item {
   margin-left: 30px;
 }
